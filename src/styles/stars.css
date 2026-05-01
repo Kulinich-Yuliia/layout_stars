@@ -1,14 +1,6 @@
-.body{
-  margin: 0;
-  padding-top: 32px;
-  padding-left: 22px;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 .stars{
   display: flex;
-  gap: 4px;
+  margin-right: 4px;
 }
 
 .stars__star  {
@@ -37,5 +29,6 @@
 
 .stars--5 .stars__star:nth-child(-n+5){
   background-image: url('images/star-active.svg');
+  margin-right: 0;
 }
 
